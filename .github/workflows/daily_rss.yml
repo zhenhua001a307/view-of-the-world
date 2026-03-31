@@ -2,7 +2,7 @@ name: EPUB to RSS Pusher
 
 on:
   schedule:
-    - cron: '0 0 */3 * *' # 每两天运行一次
+    - cron: '0 0 * * 1,4' 
   workflow_dispatch: # 支持手动触发
 
 permissions:
